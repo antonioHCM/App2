@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.MainPage">
+
+    <Grid >
+        
+        
+        <Grid.RowDefinitions>
+            
+            <RowDefinition Height="0.005*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5,5*"/>
+            <ColumnDefinition Width="*"/>
+            
+        </Grid.ColumnDefinitions>
+
+        <Image Source="Hymatic_secondary_slogan_2500.png" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="2" HorizontalOptions="Center"></Image>
+
+    </Grid>
+
+</ContentPage>
